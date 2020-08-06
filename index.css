@@ -131,3 +131,50 @@ nav a{
    color:black;
    font-family: 'Raleway', sans-serif;
  }
+
+ @media(max-width: 550px){
+    .navBar{
+        flex-direction: column;
+        height: 30rem;
+    }
+    .workMain{
+        height:125rem;  
+    }
+    .contactContent{
+      height: 80rem;
+    }
+    .contactform button{
+      width:50%;
+    }
+  }
+  @media(max-width: 360px){
+    nav{
+        flex-direction: column;
+    }
+    .workMain{
+      height:180rem;
+      width:90%;
+      margin:0% 5%;
+  
+    }
+    .example{
+    width: 100%; 
+    }
+    .homeMain img{
+      display: none;
+    }
+    .contactform button{
+      width:50%;
+    }
+    .contactContent{
+      height:90rem;
+    }
+  }
+  
+  @media(min-width: 1700px){
+    .homeMain{
+      height:110rem;
+      padding-top: 20rem;
+      padding-bottom: 20rem;
+    }
+  }
